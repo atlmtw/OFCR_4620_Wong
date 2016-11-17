@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: lightgray;
+}
+
+div#one {
+    width: 175px;
+    height: 200px;
+    float: left;
+    background-size: 80px;
+    background-color: black;
+}
+
+#footer {
+	color:black;
+	background-color: lightgray;
+	padding: 2px;
+	height: 40px;
+}
+
+div#two {
+	float: left;
+	width: 615px;
+    height: 100px;
+    background: #a00000;
+}
+
+#homepage {
+	background-image: url(http://cdn.patch.com/users/148003/2012/05/T800x600/aa6f3dfddd5a3ba968b624c5394c7840.jpg);
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+	color: white;
+}
+
+#indent {
+	text-align: center;
+	color: #a00000;
+	background-color: lightgray;
+	border-radius: 10px;
+	width: auto;
+}
+
+li {
+	font-size: 8pt;
+	font-color: black;
+}
